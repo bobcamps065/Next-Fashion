@@ -1,0 +1,105 @@
+:root{
+	-color1:#007185;
+	-color2: #B12704!important;
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{background-color:;}
+
+h1{}
+
+h5:target{
+   background-color: yellow;
+   /* z-index: -2; */
+}
+
+/* ======================================================= */
+.ul,ul,li{
+	display: flex;
+    justify-content: center;
+}
+
+.ul,li{
+	margin: 2px;
+	padding: 10px;
+	
+}
+
+li:hover{
+	color: #B12704!important;
+  background-color:goldenrod;
+  border-radius: 10%;
+   height: 40px;
+   filter: drop-shadow(0px 0px 3px black);
+}
+/* ======================================================= */
+.item1{
+   display: flex;
+   justify-content: center;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   filter: drop-shadow(0px 0px 3px black);
+}
+
+.item2{
+	width: 130px;
+   /* filter: drop-shadow(1px 2px 1px black); */
+}
+
+.card{
+  background-color: lightgray;
+  width: 13rem;
+  height: 24rem;
+  text-align: center;
+  margin-top: 30px;
+  margin: 8px;
+  
+}
+
+.title1{
+	color: #007185;
+	margin: 10px;
+}
+
+.title2{
+	margin: 10px;
+	color: #B12704!important;
+}
+/* ======================================================= */
+#btn{
+	background-color: goldenrod;
+	width: 100px;
+	height: 25px;
+    border: none;
+	border-radius: 15px;
+	filter: drop-shadow(0px 0px 2px black);
+	cursor: pointer;
+}
+
+#btn:hover{
+	color: #B12704!important;
+   background-color: rgb(238, 185, 53);
+}
+/* ======================================================= */
+hr{
+	background-color: gray;
+ height: 10px;	
+}
+
+#star{
+	color: goldenrod;
+    margin-top: 10px;
+	cursor: pointer;
+} 
+/* ======================================================= */
+.text{
+	margin-top: 25px;
+	color: darkgray;
+	margin: 10px;
+}
